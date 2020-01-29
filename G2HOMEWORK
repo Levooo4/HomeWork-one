@@ -1,0 +1,16 @@
+import javax.swing.JOptionPane;
+
+
+public class G2HomeWork {
+
+    
+    public static void main(String[] args) {
+        String name=JOptionPane.showInputDialog(null,"Enter your name : ");
+        
+        int x=Integer.parseInt(JOptionPane.showInputDialog(null,"Enter first number : "));
+        int y=Integer.parseInt(JOptionPane.showInputDialog(null,"Enter Secound number : "));
+        int z=x+y;
+        JOptionPane.showMessageDialog(null, "welcome "+name+" the sum is "+z,"The sum of tow numbers ",JOptionPane.PLAIN_MESSAGE);
+    }
+    
+}
